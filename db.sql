@@ -1,0 +1,9 @@
+CREATE DATABASE hevenh3nz;
+
+USE hevenh3nz;
+
+CREATE TABLE posts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    gamertag VARCHAR(255) NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
