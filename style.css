@@ -1,21 +1,25 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     color: #fff;
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
+    line-height: 1.6;
 }
 
 header {
     background: rgba(0, 0, 0, 0.8);
     padding: 20px;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .logo h1 {
     color: #00bfff;
-    font-size: 3em;
+    font-size: 3.5em;
     margin: 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 nav ul {
@@ -24,53 +28,72 @@ nav ul {
     margin: 0;
     text-align: center;
     background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline-block;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: #00bfff;
     text-decoration: none;
     font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00d4ff;
 }
 
 .hero {
     background: rgba(0, 0, 0, 0.6);
-    padding: 50px 20px;
+    padding: 60px 20px;
     text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .hero-content h2 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin: 0;
+    font-weight: bold;
+    color: #00bfff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .hero-content p {
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin: 20px 0;
 }
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     margin: 20px;
 }
 
 .featured-mods {
-    flex: 3;
+    flex: 2;
     padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .sidebar {
     flex: 1;
     padding: 20px;
     background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-left: 20px;
 }
 
 .sidebar h3 {
     margin-top: 0;
+    color: #00bfff;
 }
 
 .sidebar form {
@@ -80,8 +103,10 @@ nav ul li a {
 .sidebar input[type="text"] {
     width: calc(100% - 120px);
     padding: 10px;
-    border: none;
+    border: 1px solid #00bfff;
     border-radius: 5px;
+    background: #000;
+    color: #fff;
 }
 
 .sidebar button {
@@ -91,10 +116,15 @@ nav ul li a {
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.sidebar button:hover {
+    background: #00d4ff;
 }
 
 .posts {
-    flex: 3;
+    flex: 2;
     padding: 20px;
 }
 
@@ -106,14 +136,16 @@ nav ul li a {
 .posts li {
     background: rgba(0, 0, 0, 0.7);
     margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 footer {
     background: rgba(0, 0, 0, 0.8);
     padding: 20px;
     text-align: center;
+    color: #fff;
 }
 
 footer .social-media a {
@@ -124,6 +156,11 @@ footer .social-media a {
 footer .social-media img {
     width: 30px;
     height: 30px;
+    transition: transform 0.3s ease;
+}
+
+footer .social-media img:hover {
+    transform: scale(1.1);
 }
 
 footer .newsletter {
@@ -138,9 +175,11 @@ footer .newsletter form {
 
 footer .newsletter input {
     padding: 10px;
-    border: none;
+    border: 1px solid #00bfff;
     border-radius: 5px;
     margin-right: 10px;
+    background: #000;
+    color: #fff;
 }
 
 footer .newsletter button {
@@ -150,14 +189,21 @@ footer .newsletter button {
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+footer .newsletter button:hover {
+    background: #00d4ff;
 }
 
 footer .legal a {
     color: #00bfff;
     text-decoration: none;
     margin: 0 5px;
+    transition: color 0.3s ease;
 }
 
 footer .legal a:hover {
+    color: #00d4ff;
     text-decoration: underline;
 }
