@@ -19,7 +19,7 @@ header {
     font-size: 3.5em;
     margin: 0;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 5px #00ff00; /* Black drop shadow and green glow */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 10px #00ff00; /* Black drop shadow and green glow */
 }
 
 nav ul {
@@ -62,14 +62,14 @@ nav ul li a:hover {
     margin: 0;
     font-weight: bold;
     color: #333; /* Dark gray text */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 5px #00ff00; /* Black drop shadow and green glow */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 10px #00ff00; /* Black drop shadow and green glow */
 }
 
 .hero-content p {
     font-size: 1.8em;
     margin: 20px 0;
     color: #333; /* Dark gray text */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), 0 0 5px #00ff00; /* Green glowing effect */
 }
 
 .content {
@@ -98,7 +98,7 @@ nav ul li a:hover {
 .sidebar h3 {
     margin-top: 0;
     color: #333; /* Dark gray text */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), 0 0 5px #00ff00; /* Green glowing effect */
 }
 
 .sidebar form {
@@ -225,7 +225,7 @@ footer .legal a:hover {
 }
 
 .post {
-    border: 1px solid #ccc;
+    border: 1px solid #333; /* Dark gray border */
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
