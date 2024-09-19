@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     margin: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -67,6 +68,13 @@ nav ul li a:hover {
     font-size: 1.8em;
     margin: 20px 0;
     color: #008000; /* Brighter dark green text */
+}
+
+/* Specific Styles for Welcome Text */
+.hero-content h2.welcome-text, .hero-content p.subheading {
+    color: #000; /* Black text */
+    background: #000; /* Black background for the text container */
+    text-shadow: none; /* Remove text shadow for black text */
 }
 
 .content {
