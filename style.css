@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    color: #00bfff;
+    font-size: 3em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.hero {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.featured-mods {
+    flex: 3;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin-left: 20px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar form {
+    margin-bottom: 20px;
+}
+
+.sidebar input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sidebar button {
+    padding: 10px 20px;
+    background: #00bfff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.posts {
+    flex: 3;
+    padding: 20px;
+}
+
+.posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.posts li {
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+footer .newsletter {
+    margin: 20px 0;
+}
+
+footer .newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background: #00bfff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .legal a {
+    color: #00bfff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer .legal a:hover {
+    text-decoration: underline;
+}
