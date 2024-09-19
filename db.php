@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "hevenh3nz"; // Update with your MySQL username
-$password = "hevenh3nz";     // Update with your MySQL password
+$password = "hevenh3nz"; // Update with your MySQL password
 $dbname = "hevenh3nz";
 
 // Create connection
