@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HevenH3nz - Xbox Modding Image Board</title>
+    <title>HevenH3nz - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,52 +14,71 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Modding Guides</a></li>
-            <li><a href="#">Lobby Hosting</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="modding-guides.html">Modding Guides</a></li>
+            <li><a href="lobby-hosting.html">Lobby Hosting</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
     <main>
         <section class="hero">
             <div class="hero-content">
                 <h2>Welcome to HevenH3nz</h2>
-                <p>Your Hub for Xbox Modding and Lobby Hosting</p>
+                <p>Post your gamertags anonymously for modded lobbies!</p>
             </div>
         </section>
         <section class="content">
-            <div class="featured-mods">
-                <h3>Featured Mods</h3>
-                <!-- Add mod details here -->
-            </div>
-            <aside class="sidebar">
-                <h3>Post Your Gamertag</h3>
-                <form id="gamertag-form">
-                    <input type="text" id="gamertag" placeholder="Enter your gamertag" required>
-                    <button type="submit">Post</button>
+            <div class="post-form">
+                <h3>Submit Your Gamertag</h3>
+                <form action="submit-post.php" method="post">
+                    <label for="gamertag">Gamertag:</label>
+                    <input type="text" id="gamertag" name="gamertag" required>
+                    
+                    <label for="featured">Feature this post:</label>
+                    <input type="checkbox" id="featured" name="featured">
+
+                    <button type="submit">Submit</button>
                 </form>
-                <h3>Top Modders</h3>
-                <ul>
-                    <li>Modder 1</li>
-                    <li>Modder 2</li>
-                </ul>
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Popular Threads</a></li>
-                    <li><a href="#">Guides</a></li>
-                    <li><a href="#">Lobby Announcements</a></li>
-                </ul>
-                <h3>Search</h3>
-                <input type="text" placeholder="Search...">
-            </aside>
-        </section>
-        <section class="posts">
-            <h3>Recent Posts</h3>
-            <ul id="post-list">
-                <!-- Posts will appear here -->
-            </ul>
+            </div>
+            <div class="posts">
+                <h3>Featured Posts</h3>
+                <?php
+                include 'db.php';
+
+                // Fetch featured posts
+                $result = $conn->query("SELECT gamertag, timestamp FROM posts WHERE featured = 1 ORDER BY timestamp DESC");
+
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<div class='post'>";
+                        echo "<p><strong>Gamertag:</strong> " . htmlspecialchars($row['gamertag']) . "</p>";
+                        echo "<p><em>Posted on: " . $row['timestamp'] . "</em></p>";
+                        echo "</div>";
+                    }
+                } else {
+                    echo "<p>No featured posts yet.</p>";
+                }
+
+                // Fetch all posts (non-featured)
+                echo "<h3>All Posts</h3>";
+                $result = $conn->query("SELECT gamertag, timestamp FROM posts WHERE featured = 0 ORDER BY timestamp DESC");
+
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<div class='post'>";
+                        echo "<p><strong>Gamertag:</strong> " . htmlspecialchars($row['gamertag']) . "</p>";
+                        echo "<p><em>Posted on: " . $row['timestamp'] . "</em></p>";
+                        echo "</div>";
+                    }
+                } else {
+                    echo "<p>No posts yet.</p>";
+                }
+
+                $conn->close();
+                ?>
+            </div>
         </section>
     </main>
     <footer>
@@ -81,6 +100,5 @@
             <a href="#">Copyright Notice</a>
         </div>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
