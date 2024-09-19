@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #fff; /* White text */
+    color: #006400; /* Dark green text */
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     line-height: 1.6;
@@ -15,7 +15,7 @@ header {
 }
 
 .logo h1 {
-    color: #fff; /* White text */
+    color: #006400; /* Dark green text */
     font-size: 3.5em;
     margin: 0;
     font-weight: bold;
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* White text */
+    color: #006400; /* Dark green text */
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s ease, text-shadow 0.3s ease;
@@ -61,14 +61,14 @@ nav ul li a:hover {
     font-size: 3.5em;
     margin: 0;
     font-weight: bold;
-    color: #fff; /* White text */
+    color: #006400; /* Dark green text */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 10px #00ff00; /* Black drop shadow and green glow */
 }
 
 .hero-content p {
     font-size: 1.8em;
     margin: 20px 0;
-    color: #fff; /* White text */
+    color: #006400; /* Dark green text */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), 0 0 5px #00ff00; /* Green glowing effect */
 }
 
@@ -97,7 +97,7 @@ nav ul li a:hover {
 
 .sidebar h3 {
     margin-top: 0;
-    color: #fff; /* White text */
+    color: #006400; /* Dark green text */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), 0 0 5px #00ff00; /* Green glowing effect */
 }
 
@@ -153,7 +153,7 @@ footer {
     background: rgba(0, 0, 0, 0.8); /* Black background */
     padding: 20px;
     text-align: center;
-    color: #fff; /* White text */
+    color: #006400; /* Dark green text */
 }
 
 footer .social-media a {
@@ -208,7 +208,7 @@ footer .newsletter button:hover {
 }
 
 footer .legal a {
-    color: #fff; /* White text */
+    color: #006400; /* Dark green text */
     text-decoration: none;
     margin: 0 5px;
     transition: color 0.3s ease, text-shadow 0.3s ease;
