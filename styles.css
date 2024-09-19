@@ -202,6 +202,26 @@ footer .legal a {
     margin: 0 5px;
     transition: color 0.3s ease;
 }
+.posts {
+    margin-top: 20px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.post p {
+    margin: 0;
+    padding: 0;
+}
+
+.post em {
+    color: #555;
+}
 
 footer .legal a:hover {
     color: #00d4ff;
