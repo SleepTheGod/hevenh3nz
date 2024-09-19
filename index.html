@@ -32,16 +32,14 @@
         <section class="content">
             <div class="featured-mods">
                 <h3>Featured Mods</h3>
-                <div class="mod">
-                    <img src="mod1.jpg" alt="Mod 1">
-                    <p>Mod Description 1</p>
-                </div>
-                <div class="mod">
-                    <img src="mod2.jpg" alt="Mod 2">
-                    <p>Mod Description 2</p>
-                </div>
+                <!-- Add mod details here -->
             </div>
             <aside class="sidebar">
+                <h3>Post Your Gamertag</h3>
+                <form id="gamertag-form">
+                    <input type="text" id="gamertag" placeholder="Enter your gamertag" required>
+                    <button type="submit">Post</button>
+                </form>
                 <h3>Top Modders</h3>
                 <ul>
                     <li>Modder 1</li>
@@ -56,6 +54,12 @@
                 <h3>Search</h3>
                 <input type="text" placeholder="Search...">
             </aside>
+        </section>
+        <section class="posts">
+            <h3>Recent Posts</h3>
+            <ul id="post-list">
+                <!-- Posts will appear here -->
+            </ul>
         </section>
     </main>
     <footer>
@@ -77,5 +81,6 @@
             <a href="#">Copyright Notice</a>
         </div>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
