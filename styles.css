@@ -20,7 +20,7 @@ header {
     font-size: 3.5em;
     margin: 0;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Black drop shadow */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 nav ul {
@@ -42,6 +42,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s ease;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 nav ul li a:hover {
@@ -61,20 +62,21 @@ nav ul li a:hover {
     margin: 0;
     font-weight: bold;
     color: #008000; /* Brighter dark green text */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Black drop shadow */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 .hero-content p {
     font-size: 1.8em;
     margin: 20px 0;
     color: #008000; /* Brighter dark green text */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 /* Specific Styles for Welcome Text */
 .hero-content h2.welcome-text, .hero-content p.subheading {
     color: #000; /* Black text */
     background: #000; /* Black background for the text container */
-    text-shadow: none; /* Remove text shadow for black text */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 .content {
@@ -103,6 +105,7 @@ nav ul li a:hover {
 .sidebar h3 {
     margin-top: 0;
     color: #008000; /* Brighter dark green text */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 .sidebar form {
@@ -116,6 +119,7 @@ nav ul li a:hover {
     border-radius: 5px;
     background: #000; /* Black background */
     color: #fff; /* White text */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 .sidebar button {
@@ -126,6 +130,7 @@ nav ul li a:hover {
     color: #fff; /* White text */
     cursor: pointer;
     transition: background 0.3s ease;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 .sidebar button:hover {
@@ -148,6 +153,7 @@ nav ul li a:hover {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 footer {
@@ -155,6 +161,7 @@ footer {
     padding: 20px;
     text-align: center;
     color: #008000; /* Brighter dark green text */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 footer .social-media a {
@@ -189,6 +196,7 @@ footer .newsletter input {
     margin-right: 10px;
     background: #000; /* Black background */
     color: #fff; /* White text */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 footer .newsletter button {
@@ -199,6 +207,7 @@ footer .newsletter button {
     color: #fff; /* White text */
     cursor: pointer;
     transition: background 0.3s ease;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 footer .newsletter button:hover {
@@ -210,6 +219,7 @@ footer .legal a {
     text-decoration: none;
     margin: 0 5px;
     transition: color 0.3s ease;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 footer .legal a:hover {
@@ -226,6 +236,7 @@ footer .legal a:hover {
     margin-bottom: 10px;
     border-radius: 5px;
     background-color: #000; /* Black background */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Sharp black drop shadow */
 }
 
 .post p {
