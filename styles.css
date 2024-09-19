@@ -1,21 +1,21 @@
 body {
     margin: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #fff;
+    color: #333; /* Dark gray text */
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     line-height: 1.6;
 }
 
 header {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8); /* Black header background */
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .logo h1 {
-    color: #fff;
+    color: #333; /* Dark gray text */
     font-size: 3.5em;
     margin: 0;
     font-weight: bold;
@@ -27,7 +27,7 @@ nav ul {
     padding: 0;
     margin: 0;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6); /* Almost black background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333; /* Dark gray text */
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s ease, text-shadow 0.3s ease;
@@ -50,7 +50,7 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6); /* Almost black background */
     padding: 60px 20px;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('hero-bg.jpg') no-repeat center center;
@@ -61,14 +61,14 @@ nav ul li a:hover {
     font-size: 3.5em;
     margin: 0;
     font-weight: bold;
-    color: #fff;
+    color: #333; /* Dark gray text */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6), 0 0 5px #00ff00; /* Black drop shadow and green glow */
 }
 
 .hero-content p {
     font-size: 1.8em;
     margin: 20px 0;
-    color: #fff;
+    color: #333; /* Dark gray text */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
@@ -81,7 +81,7 @@ nav ul li a:hover {
 .featured-mods {
     flex: 2;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7); /* Almost black background */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -89,7 +89,7 @@ nav ul li a:hover {
 .sidebar {
     flex: 1;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7); /* Almost black background */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-left: 20px;
@@ -97,7 +97,7 @@ nav ul li a:hover {
 
 .sidebar h3 {
     margin-top: 0;
-    color: #fff;
+    color: #333; /* Dark gray text */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
@@ -110,8 +110,8 @@ nav ul li a:hover {
     padding: 10px;
     border: 1px solid #00ff00; /* Green border */
     border-radius: 5px;
-    background: #000;
-    color: #fff;
+    background: #000; /* Black background */
+    color: #333; /* Dark gray text */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
@@ -142,7 +142,7 @@ nav ul li a:hover {
 }
 
 .posts li {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7); /* Almost black background */
     margin-bottom: 10px;
     padding: 15px;
     border-radius: 8px;
@@ -150,10 +150,10 @@ nav ul li a:hover {
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.8); /* Black background */
     padding: 20px;
     text-align: center;
-    color: #fff;
+    color: #333; /* Dark gray text */
 }
 
 footer .social-media a {
@@ -186,8 +186,8 @@ footer .newsletter input {
     border: 1px solid #00ff00; /* Green border */
     border-radius: 5px;
     margin-right: 10px;
-    background: #000;
-    color: #fff;
+    background: #000; /* Black background */
+    color: #333; /* Dark gray text */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
@@ -208,7 +208,7 @@ footer .newsletter button:hover {
 }
 
 footer .legal a {
-    color: #fff;
+    color: #333; /* Dark gray text */
     text-decoration: none;
     margin: 0 5px;
     transition: color 0.3s ease, text-shadow 0.3s ease;
@@ -229,7 +229,7 @@ footer .legal a:hover {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #1a1a1a; /* Almost black background */
 }
 
 .post p {
@@ -240,4 +240,3 @@ footer .legal a:hover {
 .post em {
     color: #555;
 }
- 
