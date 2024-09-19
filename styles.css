@@ -78,7 +78,7 @@ nav ul li a:hover {
 .featured-mods {
     flex: 2;
     padding: 20px;
-    background: #333; /* Dark gray background */
+    background: #000; /* Black background */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -86,7 +86,7 @@ nav ul li a:hover {
 .sidebar {
     flex: 1;
     padding: 20px;
-    background: #333; /* Dark gray background */
+    background: #000; /* Black background */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-left: 20px;
@@ -106,7 +106,7 @@ nav ul li a:hover {
     padding: 10px;
     border: 1px solid #33cc33; /* Brighter green border */
     border-radius: 5px;
-    background: #222; /* Almost black background */
+    background: #000; /* Black background */
     color: #fff; /* White text */
 }
 
@@ -135,7 +135,7 @@ nav ul li a:hover {
 }
 
 .posts li {
-    background: #222; /* Almost black background */
+    background: #000; /* Black background */
     margin-bottom: 10px;
     padding: 15px;
     border-radius: 8px;
@@ -179,7 +179,7 @@ footer .newsletter input {
     border: 1px solid #33cc33; /* Brighter green border */
     border-radius: 5px;
     margin-right: 10px;
-    background: #222; /* Almost black background */
+    background: #000; /* Black background */
     color: #fff; /* White text */
 }
 
@@ -217,7 +217,7 @@ footer .legal a:hover {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    background-color: #222; /* Almost black background */
+    background-color: #000; /* Black background */
 }
 
 .post p {
