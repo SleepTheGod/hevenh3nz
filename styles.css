@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #006400; /* Dark green text */
+    color: #008000; /* Brighter dark green text */
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     line-height: 1.6;
@@ -15,7 +15,7 @@ header {
 }
 
 .logo h1 {
-    color: #006400; /* Dark green text */
+    color: #008000; /* Brighter dark green text */
     font-size: 3.5em;
     margin: 0;
     font-weight: bold;
@@ -37,14 +37,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #006400; /* Dark green text */
+    color: #008000; /* Brighter dark green text */
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #00ff00; /* Bright green text on hover */
+    color: #33cc33; /* Brighter green text on hover */
 }
 
 .hero {
@@ -59,14 +59,14 @@ nav ul li a:hover {
     font-size: 3.5em;
     margin: 0;
     font-weight: bold;
-    color: #006400; /* Dark green text */
+    color: #008000; /* Brighter dark green text */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Black drop shadow */
 }
 
 .hero-content p {
     font-size: 1.8em;
     margin: 20px 0;
-    color: #006400; /* Dark green text */
+    color: #008000; /* Brighter dark green text */
 }
 
 .content {
@@ -94,7 +94,7 @@ nav ul li a:hover {
 
 .sidebar h3 {
     margin-top: 0;
-    color: #006400; /* Dark green text */
+    color: #008000; /* Brighter dark green text */
 }
 
 .sidebar form {
@@ -104,7 +104,7 @@ nav ul li a:hover {
 .sidebar input[type="text"] {
     width: calc(100% - 120px);
     padding: 10px;
-    border: 1px solid #00ff00; /* Green border */
+    border: 1px solid #33cc33; /* Brighter green border */
     border-radius: 5px;
     background: #222; /* Almost black background */
     color: #fff; /* White text */
@@ -112,7 +112,7 @@ nav ul li a:hover {
 
 .sidebar button {
     padding: 10px 20px;
-    background: #006400; /* Dark green background */
+    background: #008000; /* Brighter dark green background */
     border: none;
     border-radius: 5px;
     color: #fff; /* White text */
@@ -121,7 +121,7 @@ nav ul li a:hover {
 }
 
 .sidebar button:hover {
-    background: #00ff00; /* Bright green background on hover */
+    background: #33cc33; /* Brighter green background on hover */
 }
 
 .posts {
@@ -146,7 +146,7 @@ footer {
     background: rgba(0, 0, 0, 0.8); /* Black background */
     padding: 20px;
     text-align: center;
-    color: #006400; /* Dark green text */
+    color: #008000; /* Brighter dark green text */
 }
 
 footer .social-media a {
@@ -176,7 +176,7 @@ footer .newsletter form {
 
 footer .newsletter input {
     padding: 10px;
-    border: 1px solid #00ff00; /* Green border */
+    border: 1px solid #33cc33; /* Brighter green border */
     border-radius: 5px;
     margin-right: 10px;
     background: #222; /* Almost black background */
@@ -185,7 +185,7 @@ footer .newsletter input {
 
 footer .newsletter button {
     padding: 10px 20px;
-    background: #006400; /* Dark green background */
+    background: #008000; /* Brighter dark green background */
     border: none;
     border-radius: 5px;
     color: #fff; /* White text */
@@ -194,18 +194,18 @@ footer .newsletter button {
 }
 
 footer .newsletter button:hover {
-    background: #00ff00; /* Bright green background on hover */
+    background: #33cc33; /* Brighter green background on hover */
 }
 
 footer .legal a {
-    color: #006400; /* Dark green text */
+    color: #008000; /* Brighter dark green text */
     text-decoration: none;
     margin: 0 5px;
     transition: color 0.3s ease;
 }
 
 footer .legal a:hover {
-    color: #00ff00; /* Bright green text on hover */
+    color: #33cc33; /* Brighter green text on hover */
 }
 
 .posts {
